@@ -1,0 +1,169 @@
+/*overall color*/
+body{
+    background-color: rgb(129, 128, 125);
+
+}
+/*header of title*/
+header{
+    padding: 10px;
+    margin: auto;
+    background-color: white;
+    position: relative;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    box-shadow: 3px 3px 5px;
+}
+/*only for title*/
+.headertitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    flex-grow: 0;
+    padding: 1em;
+}/*pictures*/
+.headerleft, .headerright{
+    width: 6em;
+    display: block;
+}
+/*box of each topic*/
+#box{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1em;
+    background-color: floralwhite;
+    align-items: center;
+}
+/*a is for title of the lesson*/
+a{
+    color: black;
+    text-align:justify;
+    margin-left: 0;
+    
+}
+a:hover{
+    color: blue;
+}
+/*box for definition*/
+#def{
+    border: 1px solid black;
+    border-radius: 5em;
+    text-align: center;
+    display: inline-flex;
+    padding: 1em 1em;
+    font-family: "book antiqua";
+}
+/*for the pictures*/
+.growthDecay, .coolingHeating {
+    margin: 0 auto; /* This will center them horizontally */
+    display: flex; /* Make sure these are using flexbox for centering */
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+.growthDecay{
+    width: 30%;
+    height:  20em;
+    border: 1px solid black;
+    align-items: center;
+    margin-left: 33%;
+    justify-content: space-between;
+    flex-grow: 0;
+}
+.coolingHeating{
+    height:  20em;
+    border: 1px solid black;
+    align-items: center;
+    margin-inline: 33%;
+    justify-content: space-between;
+}
+#footer{
+    padding: 10px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;   
+
+}
+/*Growth and Decay html*/
+/*title of each topic like growthDecay and Heating and Cooling*/
+#overalltitle{
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    flex-grow: 1;
+    padding: 1em;
+}
+#formulaword{
+    border: 1px solid black;
+    border-radius: 1em;
+    background-color: rgb(192, 192, 70);
+    display: inline-block;
+    padding: 1em;
+}
+
+#formula{
+    font-family: "book antiqua";
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    flex-grow: 0;
+    padding: 1em;
+    justify-content: center;
+}
+
+.formulaassign{
+    flex-grow: 0;
+    padding: 1em;
+    margin: 0;
+    display: flex;
+}
+/*choose what to solve*/
+#boxchoose{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 10%;
+    border: 1px solid black;
+    background-color: burlywood;
+    display: inline-block;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 10px;
+}
+/*population html file*/
+#given{
+    border: 1px solid black;
+    background-color: floralwhite;
+    display: inline-block;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 1em;
+}
+#submit{
+    border: 1px solid black;
+    border-radius: 1 em;
+    display: inline-block;
+    padding: 1em;
+    border-radius: 1em;
+    margin-left: 25em;
+}
+#backmain{
+    background-color: beige;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    float: right;
+    box-shadow: 3px 3px 5px;
+}
+#backmain:hover{
+    background-color: lime;
+    color: rgb(90, 81, 81);
+    font-size: larger;
+}
